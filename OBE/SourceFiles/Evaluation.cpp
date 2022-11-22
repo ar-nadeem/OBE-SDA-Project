@@ -34,10 +34,10 @@ void Evaluation::setDate() {
 }
 
 void Evaluation::addQuestions(string question) {
-	this->questions->push_back(question);
+	this->questions.push_back(question);
 }
 
 void Evaluation::removequestion(string question) {
-	this->questions->erase(remove(questions->begin(), questions->end(), question), questions->end());
+	this->questions.erase(remove(questions.begin(), questions.end(), question), questions.end());
 		//.erase(std::remove(vec.begin(), vec.end(), value), vec.end());
 }
