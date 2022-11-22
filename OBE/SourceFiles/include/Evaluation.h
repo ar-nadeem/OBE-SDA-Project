@@ -13,7 +13,7 @@ private:
 	float marks;
 	float weightage;
 	char* date;
-	vector<string> questions[];
+	vector<string> questions;
 
 public:
 
@@ -22,7 +22,7 @@ public:
 		this->marks = marks;
 		this->weightage = weightage;
 		this->date = date;
-		this->questions->push_back(question);
+		this->questions.push_back(question);
 	}
 
 	string getType() const;
