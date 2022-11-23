@@ -58,7 +58,17 @@ public:
 // Academic Officer subclass Inhertis from User
 class AcademicOfficer :private User {
 private:
+	friend class DataHandle<AcademicOfficer>;
 	DataHandle<AcademicOfficer> *d;
+
+	//// Setter for Name
+	//string setName(string n) { this->setPassword(n); }
+
+	//// Setter for username
+	//string setUsername(string u) { this->setUsername(u); }
+
+	//// Setter for password
+	//string setPassword(string p) { this->setPassword(p); }
 public:
 
 	// Default Constructor
@@ -77,18 +87,24 @@ public:
 	string getType() { return("AO"); }
 
 	//// Save to File
-	//void saveToFile() {
-	//	d->saveData(this->getName()+
-	//		"," + this->getUsername()+ 
-	//		"," + this->getPassword()+
-	//		"\n");
-	//}
+	void saveToFile(AcademicOfficer * obj) {
+		d->saveData(obj->getName()+
+			"," + obj->getUsername()+
+			"," + obj->getPassword()+
+			"\n");
+	}
 
 	//// Reconstruct
-	//void reConstruct() {
-	//	d->reConstruct(this);
+	void reConstruct(AcademicOfficer* obj) {
+		string* tokens;
+		tokens = d->reConstruct();
+		
+		obj->setName(tokens[0]);
+		obj->setUsername(tokens[1]);
+		obj->setPassword(tokens[2]);
 
-	//}
+
+	}
 
 	// Display All info
 	void getInfo() {
@@ -105,19 +121,40 @@ public:
 // Teacher subclass Inhertis from User
 class Teacher :private User {
 private:
+	friend class DataHandle<AcademicOfficer>;
+	DataHandle<AcademicOfficer>* d;
 public:
 
 	// Default Constructor
-	//Teacher():User() {
-
-	//}
+	Teacher():User() {
+		d = new DataHandle<AcademicOfficer>("Teacher");
+	}
 
 
 	// Paramterized Constructor
-	Teacher(string n, string u, string p) :User(n, u, p) {}
+	Teacher(string n, string u, string p) :User(n, u, p) {
+		d = new DataHandle<AcademicOfficer>("Teacher");
+	}
 
-	// SaveToFile
+	//// Save to File
+	void saveToFile(Teacher* obj) {
+		d->saveData(obj->getName() +
+			"," + obj->getUsername() +
+			"," + obj->getPassword() +
+			"\n");
+	}
 
+	//// Reconstruct
+	void reConstruct(Teacher* obj) {
+		string* tokens;
+		tokens = d->reConstruct();
+
+		obj->setName(tokens[0]);
+		obj->setUsername(tokens[1]);
+		obj->setPassword(tokens[2]);
+
+
+	}
 
 	// Getter for type of user
 	string getType() { return("T"); }
