@@ -4,6 +4,8 @@
 #include <ctime>
 #include <vector>
 #include <algorithm>
+#include "Courses.h"
+#include "PLO.h"
 
 using namespace std;
 
@@ -11,8 +13,8 @@ class Program {
 private:
 	string name;
 	string dept;
-	vector<string> PLO; //Change to PLO type later
-	vector<string> Courses; //Change to PLO type later
+	vector<PLO> PLO; //Change to PLO type later
+	vector<Courses> Courses; //Change to PLO type later
 public:
 	void addCourses();
 	void addPLO();
