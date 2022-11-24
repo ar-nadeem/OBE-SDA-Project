@@ -14,7 +14,7 @@ private:
 	string name;
 	string dept;
 	vector<PLO> PLO; //Change to PLO type later
-	vector<Courses> Courses; //Change to PLO type later
+	vector<Course> Courses; //Change to PLO type later
 public:
 	void addCourses();
 	void addPLO();
