@@ -12,6 +12,7 @@
 #include <sstream>
 #include "Evaluation.h"
 #include "Program.h"
+#include "PLO.h"
 #include <vector>
 #include <iostream>
 #include <map>

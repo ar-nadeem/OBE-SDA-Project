@@ -6,7 +6,7 @@
 #include <vector>
 #include <algorithm>
 #include <fstream>
-#include "PUBLIC_HEADERS.h"
+//#include "PUBLIC_HEADERS.h"
 
 using namespace std;
 
@@ -20,6 +20,23 @@ private:
 	int class_number;
 
 public:
+	// Constructor
+	Course(string cc, int cr, string cn) {
+		this->course_code = cc;
+		this->credit_hours = cr;
+		this->course_name = cn;
+	}
+
+
+	// Display Information For Course
+	void display() {
+		cout << "Course Code: " << this->course_code << endl;
+		cout << "Credit Hours: " << this->credit_hours << endl;
+		cout << "Course Name: " << this->course_name << endl;
+
+	}
+
+
 
 	template<typename temp>//helper function
 	temp* increase(temp* ptr, int Size) {

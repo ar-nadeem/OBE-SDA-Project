@@ -128,9 +128,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SourceFiles\Evaluation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="data.h" />
+    <ClInclude Include="SourceFiles\include\CLO.h" />
+    <ClInclude Include="SourceFiles\include\Courses.h" />
+    <ClInclude Include="SourceFiles\include\Evaluation.h" />
+    <ClInclude Include="SourceFiles\include\PLO.h" />
+    <ClInclude Include="SourceFiles\include\Program.h" />
+    <ClInclude Include="SourceFiles\include\PUBLIC_HEADERS.h" />
     <ClInclude Include="users.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

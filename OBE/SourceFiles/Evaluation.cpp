@@ -28,10 +28,10 @@ void Evaluation::setWeightage(float weightage) {
 	this->weightage = weightage;
 }
 
-void Evaluation::setDate() {
-	const time_t now = time(0);
-	this->date = ctime(&now);
-}
+//void Evaluation::setDate() {
+//	const time_t now = time(0);
+//	this->date = ctime_s(&now);
+//}
 
 void Evaluation::addQuestions(string question) {
 	this->questions.push_back(question);

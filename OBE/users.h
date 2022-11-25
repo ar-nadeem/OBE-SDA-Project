@@ -83,6 +83,9 @@ public:
 	
 	}
 
+	//
+
+
 	// Getter for type of user
 	string getType() { return("AO"); }
 
