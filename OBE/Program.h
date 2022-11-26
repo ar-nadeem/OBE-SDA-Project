@@ -2,9 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
 #include "PLO.h"
-#include "Courses.h"
 
 using namespace std;
 
@@ -13,31 +11,46 @@ private:
 	string name;
 	string dept;
 	// Vectors to pointers of object. Association
-	PLO* plo; //Change to PLO type later
+	vector<PLO*> plo;
 
-	vector<Course*> Courses; //Change to PLO type later
+	
 public:
 	// Default Constructor
 	Program(string n,string d) {
 		this->name = n;
 		this->dept = d;
 	}
-	// Add course to the list of courses.
-	void addCourses(Course *obj) {
-		Courses.push_back(obj);
-	}
+
 	// Add PLO to the list of PLOs
-	void setPLO(PLO* obj) {
-		plo = obj;
+	void addPLO(PLO* obj) {
+		plo.push_back(obj);
 	}
 
-	// Itereate through vector of courses and display all info for each | Will be called by PLO | Can be a private Function (TBD).
-	void listAllCourses() {
-		for (auto & obj : Courses) {
+	// List all PLOs
+	void listAllPLO() {
+		for (auto& obj : plo) {
 			obj->display();
 			cout << endl;
 		}
 	}
+
+	// List Courses by PLO id
+	void getCoursesbyPLO(int id) {
+		for (auto& obj : plo) {
+			if (obj->getID() == id) {
+				obj->listAllCourses();
+				cout << endl;
+			}
+		}
+	}
+
+	void getAllCourses() {
+		for (auto& obj : plo) {
+			obj->listAllCourses();
+			cout << endl;
+		}
+	}
+
 
 	//void setDuration();
 	//void setDetails();

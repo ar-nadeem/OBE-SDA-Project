@@ -15,37 +15,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClInclude Include="CLO.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SourceFiles\Evaluation.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="users.h">
+    </ClInclude>
+    <ClInclude Include="Courses.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="data.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="SourceFiles\include\CLO.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Evaluation.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="SourceFiles\include\Courses.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="PLO.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="SourceFiles\include\Evaluation.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Program.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="SourceFiles\include\PLO.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="PUBLIC_HEADERS.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="SourceFiles\include\Program.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="questions.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="SourceFiles\include\PUBLIC_HEADERS.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="users.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

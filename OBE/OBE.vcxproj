@@ -18,6 +18,20 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CLO.h" />
+    <ClInclude Include="Courses.h" />
+    <ClInclude Include="data.h" />
+    <ClInclude Include="Evaluation.h" />
+    <ClInclude Include="PLO.h" />
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="PUBLIC_HEADERS.h" />
+    <ClInclude Include="questions.h" />
+    <ClInclude Include="users.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,20 +140,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="SourceFiles\Evaluation.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="data.h" />
-    <ClInclude Include="SourceFiles\include\CLO.h" />
-    <ClInclude Include="SourceFiles\include\Courses.h" />
-    <ClInclude Include="SourceFiles\include\Evaluation.h" />
-    <ClInclude Include="SourceFiles\include\PLO.h" />
-    <ClInclude Include="SourceFiles\include\Program.h" />
-    <ClInclude Include="SourceFiles\include\PUBLIC_HEADERS.h" />
-    <ClInclude Include="users.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
