@@ -225,7 +225,9 @@ void Menu(string String[6])
 int main() {
 
 	Interface main;
-	
+	main.firstStart();
+
+
 	HWND consoleWindow = GetConsoleWindow();
 	SetWindowLongA(consoleWindow, GWL_STYLE, GetWindowLong(consoleWindow, GWL_STYLE) & ~WS_MAXIMIZEBOX & ~WS_SIZEBOX);
 

@@ -58,20 +58,21 @@ public:
 
 	void firstStart() {
 
-		string in, n, u, p;
+		string n, u, p;
+		int in;
 		cls();
-		cout << "Enter 1 to create account for Academic Officer\n Enter 2 to create account for Teacher\nPress 0 at anytime to exit\n";
+		cout << "Enter 1 to create account for Academic Officer\nEnter 2 to create account for Teacher\nPress 0 at anytime to exit\n";
 		cin >> in;
 
 		// Validation Check
-		if (in != "1" || in != "2" || in != "0") {
+		if (in != 1 || in != 2 || in != 0) {
 			cout << "\n Invalid Option Selected \n";
 			Sleep(300);
 			firstStart();
 		}
 
 		// Sign up
-		if (in == "1" || in == "2") {
+		if (in == 1 || in == 2) {
 
 			cout << "Name: ";
 			cin >> n;
@@ -79,7 +80,7 @@ public:
 			cin >> u;
 			cout << "Password: ";
 			cin >> p;
-			if (in == "1") { // For AO
+			if (in == 1) { // For AO
 				users.push_back(new AcademicOfficer(u, n, p));
 				cout << "Done !\n";
 			}
@@ -90,7 +91,7 @@ public:
 		}
 
 		// Exit the function
-		if (in == "0") { return; }
+		if (in == 0) { return; }
 
 		firstStart();
 
