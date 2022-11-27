@@ -39,6 +39,17 @@ public:
 	}
 
 
+	// Virtual Functions
+	// For AO
+	virtual Program* createProgram(string n,string d, int id) { return nullptr; }
+	virtual PLO* createPLO(string n, int c, string d) { return nullptr; }
+	virtual Course* createCourse(string cc, int cr, string cn) { return nullptr; }
+	// For Teacher
+	virtual CLO* createCLO(string n, int c, string d) { return nullptr; }
+	virtual Evaluation* createEvaluation(string type, float marks, float weightage, string date,int id) { return nullptr; }
+	virtual Question* createQuestion(int id, string name) { return nullptr; }
+
+
 	// Getter & Setter for Name
 	string getName() { return this->name; }
 	void setName(string n) { this->name = n; }
@@ -81,19 +92,6 @@ public:
 
 
 
-
-	// Getter  for Name
-	string getName() { return this->getName(); }
-
-	// Getter  for username
-	string getUsername() { return this->getUsername(); }
-
-	// Getter  for password
-	string getPassword() { return this->getPassword(); }
-
-	// Getter for type of user
-	string getType() { return("AO"); }
-
 	//// Save to File
 	void saveToFile(AcademicOfficer * obj) {
 		d->saveData(obj->getName()+
@@ -113,6 +111,23 @@ public:
 
 
 	}
+
+	// ASOCIATION FUNCTIONS 
+	// Create a Program
+	Program* createProgram(string n, string d, int id) {
+		Program* temp = new Program(n,d,id);
+		return (temp);
+	}
+	// Create a PLO
+	PLO* createPLO(string n, int c, string d) {
+		PLO* temp = new PLO(n, c, d);
+		return temp;
+	}
+	Course* createCourse(string cc, int cr, string cn) {
+		Course* temp = new Course(cc, cr, cn);
+		return temp;
+	}
+
 
 	// Display All info
 	void getInfo() {
@@ -146,6 +161,23 @@ public:
 		d = new DataHandle<AcademicOfficer>("Teacher");
 	}
 
+
+
+	// ASOCIATIONS FUNCTIONS
+	CLO* createCLO(string n, int c, string d) { 
+		CLO* temp = new CLO(n, c, d);
+		return temp;
+	}
+	Evaluation* createEvaluation(string type, float marks, float weightage, string date,int id) {
+		Evaluation* temp = new Evaluation(type, marks, weightage, date,id);
+		return temp;
+	}
+	Question* createQuestion(int id, string name) { 
+		Question* temp = new Question(id, name);
+		return temp;
+	}
+
+
 	//// Save to File
 	void saveToFile(Teacher* obj) {
 		d->saveData(obj->getName() +
@@ -165,18 +197,6 @@ public:
 
 
 	}
-
-	// Getter  for Name
-	string getName() { return this->getName(); }
-
-	// Getter  for username
-	string getUsername() { return this->getUsername(); }
-
-	// Getter  for password
-	string getPassword() { return this->getPassword(); }
-
-	// Getter for type of user
-	string getType() { return("T"); }
 
 
 	// Display All info

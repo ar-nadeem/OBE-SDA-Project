@@ -12,14 +12,24 @@ private:
 	string dept;
 	// Vectors to pointers of object. Association
 	vector<PLO*> plo;
-
+	int id;
 	
 public:
 	// Default Constructor
-	Program(string n,string d) {
+	Program(string n, string d, int id) {
 		this->name = n;
 		this->dept = d;
+		this->id = id;
 	}
+
+	void display() {
+		cout << "Name: " << this->name << endl;
+		cout << "Department: " << this->dept << endl;
+		cout << "ID: " << this->id << endl;
+	}
+
+	// Getter for ID
+	int getID() { return(this->id); }
 
 	// Add PLO to the list of PLOs
 	void addPLO(PLO* obj) {

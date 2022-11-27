@@ -27,6 +27,7 @@ public:
 		this->desc = "NO DESCRPTION SET";
 	}
 
+
 	// Display
 	void display() {
 		cout << "Name: " << this->name << endl;

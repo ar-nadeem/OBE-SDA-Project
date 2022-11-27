@@ -14,16 +14,21 @@ private:
 	float weightage;
 	string date;
 	vector<Question*> questions ;
+	int id;
 
 public:
 
-	Evaluation(string type, float marks, float weightage, string date) {
+	Evaluation(string type, float marks, float weightage, string date,int id) {
 		this->type = type;
 		this->marks = marks;
 		this->weightage = weightage;
 		this->date = date;
+		this->id;
 		
 	}
+
+	// Getter for id
+	int getID() { return this->id; }
 
 	void display() {
 		cout << this->type << " " << this->marks << " " << this->weightage << "% " << this->date << endl;

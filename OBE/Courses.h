@@ -39,6 +39,9 @@ public:
 
 	}
 
+	string getID() { return this->course_code; }
+
+
 	// Add CLO to the list of CLOs.
 	void addCLO(CLO* obj) {
 		clo.push_back(obj);

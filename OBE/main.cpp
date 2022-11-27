@@ -16,6 +16,8 @@ int state = 0;
 int firstLoop = 0;
 int ID;
 
+using namespace std;
+
 string strings[6] =
 {
 	"Login as Student",
@@ -26,7 +28,8 @@ string strings[6] =
 	"Signup for a Teacher account"
 };
 
-
+//the gotoo function is used to change the position of the 
+//cursor on the console screen at any moment in time
 void gotoo(int x, int y)
 {
 	COORD coord;
@@ -34,6 +37,8 @@ void gotoo(int x, int y)
 	coord.Y = y;
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
 }
+//the show console cursor is used to disable the
+//console and keep it from blinking or showing
 
 void ShowConsoleCursor(bool showFlag)
 {
@@ -47,10 +52,12 @@ void ShowConsoleCursor(bool showFlag)
 void FirstScreen(string String[], int size)
 {
 	int y = 8;
-	int horBar = 6;
-	int verBar = 43;
-	char box = 219;
+	int horBar = 6;//ascii value for a bar
+	int verBar = 43;//ascii value for a bar
+	char box = 219;//ascii value for a box
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 5);
+	//above line basically changes the color of the text with whatever number you provide
+	//its built in function
 	for (int i = 43; i < 80; i++)
 	{
 		gotoo(i, horBar);
@@ -77,12 +84,16 @@ void FirstScreen(string String[], int size)
 		cout << box;
 		Sleep(10);
 	}
+	//all above for loops are used for printing a box animation around the option menu
+
+
 	//size_t n = (int)(sizeof(String) / sizeof(String[0]));
 	for (int i = 0; i < size; i++, y++)
 	{
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 		gotoo(47, y);
 		std::cout << String[i] << endl;
+		//above lines are used to print the menu options for the user to interact with
 	}
 }
 
@@ -90,10 +101,12 @@ void clear()
 {
 	system("cls");
 }
-
+//below function is used to highlight which ever option in
+//the menu is selected. Highlights in blue
 void selectedChoice(bool flag, string array[])
 {
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
+	//above line Highlights in blue
 	gotoo(47, state + 8);
 	std::cout << array[state];
 
@@ -109,15 +122,19 @@ void selectedChoice(bool flag, string array[])
 	gotoo(47, state + 8);
 	std::cout << array[state];
 	Sleep(150);
+	//a simple sleep function to animate (built-in)
 }
 
 void Refresh()
+//this function is used whenever we have to reset the console blinkiing attribute after 
+//selecting a choice
 {
 	clear();
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 	ShowConsoleCursor(true);
 }
 
+//the function below is the menu fully implemented and all options working and ready to be selected :)
 void Menu(string String[6])
 {
 	while (firstLoop < 1)
@@ -127,6 +144,9 @@ void Menu(string String[6])
 		std::cout << strings[0] << endl;
 		firstLoop++;
 	}
+	//the GetAsyncKeyState Determines whether 
+	//a key is up or down at the time the function is called, and whether
+	//the key was pressed after a previous call to GetAsyncKeyState.
 	if (GetAsyncKeyState(VK_DOWN) && state < 5)
 	{
 		selectedChoice(true, String);
@@ -161,7 +181,9 @@ void Menu(string String[6])
 		std::cout << strings[state];
 		Sleep(150);
 	}
-
+	//GetAsyncKeyState(VK_RETURN) is used to check whether the
+	//'Enter' key has been pressed and then calls the function
+	//on whatever option/choice is selected.
 
 	else if (GetAsyncKeyState(VK_RETURN) & 0x8000)
 	{
@@ -197,16 +219,29 @@ void Menu(string String[6])
 	}
 }
 
+
+
+
 int main() {
 
+	Interface main;
+	
 	HWND consoleWindow = GetConsoleWindow();
 	SetWindowLongA(consoleWindow, GWL_STYLE, GetWindowLong(consoleWindow, GWL_STYLE) & ~WS_MAXIMIZEBOX & ~WS_SIZEBOX);
+
 	FirstScreen(strings, 6);
 	ShowConsoleCursor(false);
+
+	string strings2[3] = { "Add Academic Officer", "Add Teacher", "Done" };
+
 	while (1)
 	{
-		Menu(strings);
+		Menu(strings2);
 	}
+
+
+
+
 
 	cout << "\n\n\n\n\n\n";
 	return 0;
