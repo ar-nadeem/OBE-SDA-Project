@@ -56,19 +56,12 @@ public:
 };
 
 // Academic Officer subclass Inhertis from User
-class AcademicOfficer :private User {
+class AcademicOfficer :public User {
 private:
 	friend class DataHandle<AcademicOfficer>;
 	DataHandle<AcademicOfficer> *d;
 
-	//// Setter for Name
-	//string setName(string n) { this->setPassword(n); }
 
-	//// Setter for username
-	//string setUsername(string u) { this->setUsername(u); }
-
-	//// Setter for password
-	//string setPassword(string p) { this->setPassword(p); }
 public:
 
 	// Default Constructor
@@ -83,8 +76,17 @@ public:
 	
 	}
 
-	//
 
+
+
+	// Getter  for Name
+	string getName() { return this->getName(); }
+
+	// Getter  for username
+	string getUsername() { return this->getUsername(); }
+
+	// Getter  for password
+	string getPassword() { return this->getPassword(); }
 
 	// Getter for type of user
 	string getType() { return("AO"); }
@@ -122,10 +124,12 @@ public:
 };
 
 // Teacher subclass Inhertis from User
-class Teacher :private User {
+class Teacher :public User {
 private:
 	friend class DataHandle<AcademicOfficer>;
 	DataHandle<AcademicOfficer>* d;
+
+
 public:
 
 	// Default Constructor
@@ -158,6 +162,15 @@ public:
 
 
 	}
+
+	// Getter  for Name
+	string getName() { return this->getName(); }
+
+	// Getter  for username
+	string getUsername() { return this->getUsername(); }
+
+	// Getter  for password
+	string getPassword() { return this->getPassword(); }
 
 	// Getter for type of user
 	string getType() { return("T"); }
