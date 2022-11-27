@@ -23,6 +23,7 @@
     <ClInclude Include="Courses.h" />
     <ClInclude Include="data.h" />
     <ClInclude Include="Evaluation.h" />
+    <ClInclude Include="Interface.h" />
     <ClInclude Include="PLO.h" />
     <ClInclude Include="Program.h" />
     <ClInclude Include="PUBLIC_HEADERS.h" />

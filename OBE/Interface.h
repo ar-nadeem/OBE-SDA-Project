@@ -14,8 +14,7 @@
 
 class Interface {
 private:
-	vector<AcademicOfficer*> officers;
-	vector<Teacher*> teachers;
+	vector<User*> users;
 
 	User* current_user;
 
@@ -30,9 +29,9 @@ private:
 
 
 
-	// Check for Username, Password in Academic Officers Vector
-	AcademicOfficer* handleLoginAO(string username, string password) {
-		for (auto& i : officers) {
+	// Check for Username, Password in Users Vector
+	User* handleLoginUser(string username, string password) {
+		for (auto& i : users) {
 			if (i->getUsername() == username) {
 				if (i->getPassword() == password) {
 					return i;
@@ -42,19 +41,6 @@ private:
 		return nullptr;
 	}
 
-	// Check for Username, Password in Teacher Vector
-	Teacher* handleLoginTeacher(string username, string password) {
-
-
-		for (auto& i : teachers) {
-			if (i->getUsername() == username) {
-				if (i->getPassword() == password) {
-					return i;
-				}
-			}
-		}
-		return nullptr;
-	}
 
 public:
 
@@ -88,11 +74,11 @@ public:
 			cout << "Password: ";
 			cin >> p;
 			if (in == "1") { // For AO
-				officers.push_back(new AcademicOfficer(u, n, p));
+				users.push_back(new AcademicOfficer(u, n, p));
 				cout << "Done !\n";
 			}
 			else { // For Teacher
-				teachers.push_back(new Teacher(u, n, p));
+				users.push_back(new Teacher(u, n, p));
 				cout << "Done !\n";
 			}
 		}
@@ -106,21 +92,17 @@ public:
 	}
 
 	bool handleLogin(string username, string password) {
-		if (handleLoginAO(username, password) != nullptr) {
-			this->current_user = handleLoginAO(username, password);
-			return true;
-		}
-		else if (handleLoginTeacher(username, password) != nullptr) {
-			this->current_user = handleLoginTeacher(username, password);
-			return true;
-		}
-		else {
-			this->current_user = nullptr;
-			return false;
-		}
+	
+		this->current_user = handleLoginUser(username, password);
+		if (this->current_user = nullptr) { return false; }
+		else { return true; }
 
 	}
 
-
-
+	string getTypeofUser() {
+		return(this->current_user->getType());
+	}
+	User* getUser() {
+		return (this->current_user);
+	}
 };

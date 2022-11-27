@@ -11,6 +11,7 @@ private:
 	string name;
 	string username;
 	string password;
+	string type;
 	
 public:
 
@@ -20,14 +21,16 @@ public:
 		name = "";
 		username = "";
 		password = "";
+		type = "";
 	}
 
 
 	// Paramterized Constructor
-	User(string n, string u, string p) {
+	User(string n, string u, string p,string type) {
 		name = n;
 		username = u;
 		password = p;
+		this->type = type;
 	}
 
 	// Get Datastream to save into file
@@ -48,7 +51,7 @@ public:
 	string getPassword() { return this->password; }
 	void setPassword(string p) { this->password = p; }
 
-
+	string getType() { return(this->type); }
 
 	~User() {
 	}
@@ -71,7 +74,7 @@ public:
 
 
 	// Paramterized Constructor
-	AcademicOfficer(string n, string u,string p):User(n,u,p){
+	AcademicOfficer(string n, string u,string p):User(n,u,p,"AO") {
 		d = new DataHandle<AcademicOfficer>("AcademicOfficer");
 	
 	}
@@ -139,7 +142,7 @@ public:
 
 
 	// Paramterized Constructor
-	Teacher(string n, string u, string p) :User(n, u, p) {
+	Teacher(string n, string u, string p) :User(n, u, p,"T") {
 		d = new DataHandle<AcademicOfficer>("Teacher");
 	}
 
