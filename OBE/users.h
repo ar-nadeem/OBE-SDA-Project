@@ -39,6 +39,7 @@ public:
 	}
 
 
+
 	// Virtual Functions
 	// For AO
 	virtual Program* createProgram(string n,string d, int id) { return nullptr; }
@@ -48,6 +49,11 @@ public:
 	virtual CLO* createCLO(string n, int c, string d) { return nullptr; }
 	virtual Evaluation* createEvaluation(string type, float marks, float weightage, string date,int id) { return nullptr; }
 	virtual Question* createQuestion(int id, string name) { return nullptr; }
+
+	virtual void getInfo() {
+		return;
+	}
+
 
 
 	// Getter & Setter for Name

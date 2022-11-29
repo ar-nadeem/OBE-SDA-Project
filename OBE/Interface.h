@@ -38,10 +38,8 @@ private:
 	// Check for Username, Password in Users Vector
 	User* handleLoginUser(string username, string password) {
 		for (auto& i : users) {
-			if (i->getUsername() == username) {
-				if (i->getPassword() == password) {
-					return i;
-				}
+			if ((i->getUsername() == username) && (i->getPassword() == password)) {
+				return i;
 			}
 		}
 		return nullptr;
@@ -55,6 +53,11 @@ public:
 	}
 
 	// Public Functions
+	void debug_start() {
+		users.push_back(new AcademicOfficer("AbdulRahman Nadeem", "arnadeem", "123"));
+		users.push_back(new Teacher("Usman Nadeem", "unadeem", "123"));
+	}
+
 
 	void firstStart() {
 
@@ -64,34 +67,50 @@ public:
 		cout << "Enter 1 to create account for Academic Officer\nEnter 2 to create account for Teacher\nPress 0 at anytime to exit\n";
 		cin >> in;
 
-		// Validation Check
-		if (in != 1 || in != 2 || in != 0) {
-			cout << "\n Invalid Option Selected \n";
-			Sleep(300);
-			firstStart();
-		}
 
 		// Sign up
-		if (in == 1 || in == 2) {
-
+		// Validation Check
+		if ((in == 1 || in == 2)) {
 			cout << "Name: ";
-			cin >> n;
+			cin.ignore();
+			getline(cin, n);
 			cout << "Username: ";
 			cin >> u;
 			cout << "Password: ";
 			cin >> p;
 			if (in == 1) { // For AO
-				users.push_back(new AcademicOfficer(u, n, p));
+				users.push_back(new AcademicOfficer(n, u, p));
 				cout << "Done !\n";
+				
+				cout << "\n-----------INFO---------------\n";
+				users.back()->getInfo();
+				cout << "-----------INFO---------------\n";
+
+				
+
+				system("Pause");
 			}
 			else { // For Teacher
-				users.push_back(new Teacher(u, n, p));
+				users.push_back(new Teacher(n, u, p));
 				cout << "Done !\n";
+				cout << "\n-----------INFO---------------\n";
+				users.back()->getInfo();
+				cout << "-----------INFO---------------\n";
+				system("Pause");
 			}
 		}
 
+		// Exit when pressed 0
+		else if (in == 0) { cls(); return; }
+
+		else {
+			cout << "\n Invalid Option Selected \n";
+			Sleep(300);
+			firstStart();
+		}
+
 		// Exit the function
-		if (in == 0) { return; }
+		
 
 		firstStart();
 
@@ -101,9 +120,15 @@ public:
 	bool handleLogin(string username, string password) {
 	
 		this->current_user = handleLoginUser(username, password);
-		if (this->current_user = nullptr) { return false; }
+		if (this->current_user == nullptr) { return false; }
 		else { return true; }
 
+	}
+
+	void display_current_user() {
+		cout << "\n-------------WELCOME------------\n";
+		this->current_user->getInfo();
+		cout << "---------------------------------\n";
 	}
 
 	string getTypeofUser() {
