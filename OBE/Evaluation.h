@@ -55,6 +55,13 @@ public:
 		}
 		return ret;
 	}
+	void displayAllCLO() {
+		for (auto& i : questions) {
+			i->printAllCLO();
+		}
+	}
+
+
 
 
 	// Check for a specific CLO tested or not in All Questions

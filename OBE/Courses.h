@@ -24,18 +24,19 @@ private:
 
 public:
 	// Constructor
-	Course(string cc, int cr, string cn) {
-		this->course_code = cc;
-		this->credit_hours = cr;
-		this->course_name = cn;
+	Course(string CourseName, int CreditHour, string CourseCode) {
+		this->course_code = CourseCode;
+		this->credit_hours = CreditHour;
+		this->course_name = CourseName;
 	}
 
 
 	// Display Information For Course
 	void display() {
+		cout << "Course Name: " << this->course_name << endl;
 		cout << "Course Code: " << this->course_code << endl;
 		cout << "Credit Hours: " << this->credit_hours << endl;
-		cout << "Course Name: " << this->course_name << endl;
+		
 
 	}
 
@@ -54,6 +55,8 @@ public:
 			cout << endl;
 		}
 	}
+
+	vector<CLO*> getAllCLO() { return clo; }
 
 	// Getter for CLO from ID
 	CLO* getCLObyID(int id) {

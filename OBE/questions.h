@@ -25,6 +25,7 @@ public:
 	
 	void display() {
 		cout << "Question " << this->id << ":" << this->name << endl;
+		this->test();
 	}
 
 	// Add CLO that are tested
@@ -48,6 +49,11 @@ public:
 
 	// Get all CLOs | returns the vector of clo
 	vector<CLO*> getAllCLO() { return clo; }
+	void printAllCLO() {
+		for (auto& obj : clo) {
+			obj->display();
+		}
+	}
 		
 	// Getter for ID
 	int getID() { return this->id; }

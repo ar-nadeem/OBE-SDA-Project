@@ -16,6 +16,7 @@ void clear()
 	system("cls");
 }
 void clearBuffer() {
+	fflush(stdin);
 	cin.clear();
 	while (cin.get() != '\n')
 	{
@@ -29,14 +30,19 @@ void PauseScreen() {
 }
 
 
-void createMenu(string* s, int size, Interface* main, int type);
+int createMenu(string* s, int size, Interface* main, int type);
 
 int state = 0;
 int firstLoop = 0;
 int ID;
 
-string Init[2] = { "Login", "Done" };
-string menu2[4] = { "Create Program", "Display Program","Create PLO","Done"};
+string test[10] = { "Login", "Done","Login", "Done","Login", "Done","Login", "Done","Login", "Done" };
+
+
+
+string Init[2] = { "Login", "Exit" };
+string menu2[7] = { "Create Program", "Display Program","Create PLO","Display PLO","Create Course","Display Course","Logout"};
+string menu3[10] = { "Create CLO","Create Evaluation","Add Questions to Evaluation","------","Display Evaluations","Display CLO","Check CLO on Question","Check CLO on Course","Display Courses","Logout"};
 
 
 using namespace std;
@@ -87,21 +93,23 @@ void FirstScreen(string String[], int size)
 		cout << box;
 		Sleep(10);
 	}
-	horBar = 15;
+
+
+	horBar = 19;
 	for (int i = 43; i < 80; i++)
 	{
 		gotoo(i, horBar);
 		cout << box;
 		Sleep(10);
 	}
-	for (int i = 6; i < 16; i++)
+	for (int i = 6; i < 20; i++)
 	{
 		gotoo(verBar, i);
 		cout << box;
 		Sleep(10);
 	}
 	verBar = 80;
-	for (int i = 6; i < 16; i++)
+	for (int i = 6; i < 20; i++)
 	{
 		gotoo(verBar, i);
 		cout << box;
@@ -155,7 +163,7 @@ void Refresh()
 }
 
 //the function below is the menu fully implemented and all options working and ready to be selected :)
-bool Menu(string* String, int size, int type, Interface* main)
+int Menu(string* String, int size, int type, Interface* main)
 {
 	while (firstLoop < 1)
 	{
@@ -219,21 +227,23 @@ bool Menu(string* String, int size, int type, Interface* main)
 				getline(cin, u);
 				cout << "Enter Password :";
 				getline(cin, p);
-
 				//cout << "\n" << u << " " << p << " \n"; // For debug
 				//system("Pause");
 
 				if (main->handleLogin(u, p)) {
 					clear();
 					main->display_current_user();
+					
 					system("PAUSE");
 					if (main->getTypeofUser() == "AO") {
 						clear();
-						createMenu(menu2, 4, main,1); // Create Academic Officer Menu
+						return 1; // AO Menu
+						//createMenu(menu2, 7, main,1); // Create Academic Officer Menu
 					}
 					else {
 						clear();
-						//createMenu(menu3, 3, main);
+						return 2; // Teacher Menu
+						//createMenu(menu3, 9, main, 2); // Create Teacher Menu
 					}
 
 				}
@@ -245,7 +255,8 @@ bool Menu(string* String, int size, int type, Interface* main)
 
 					//return true;
 					clear();
-					createMenu(Init, 2, main, 0); // restart Menu
+					return 0; // Init Menu
+					//createMenu(Init, 2, main, 0); // restart Menu
 				}
 
 			
@@ -263,6 +274,8 @@ bool Menu(string* String, int size, int type, Interface* main)
 			if (state == 0) // Create Program
 			{	
 				clear();
+				clearBuffer();
+
 				string n, d;
 				int id;
 				cout << "Enter Name: ";
@@ -273,10 +286,11 @@ bool Menu(string* String, int size, int type, Interface* main)
 				cin >> id;
 				main->createProgram(n,d,id);
 
-				cout << "\n" << n << " " << d << " " << id << " \n"; // For debug
+				//cout << "\n" << n << " " << d << " " << id << " \n"; // For debug
 				
 				PauseScreen();
-				createMenu(menu2, 4, main, 1); // restart Menu
+				return 1;
+				//createMenu(menu2, 7, main, 1); // restart Menu
 			}
 
 			else if (state == 1) // Display Program
@@ -284,87 +298,375 @@ bool Menu(string* String, int size, int type, Interface* main)
 				clear(); // Clear Screen
 				main->getAllPrograms();
 
-				PauseScreen(); // Pause Screen
-				createMenu(menu2, 4, main, 1); // restart Menu
+				system("pause"); // Pause Screen
+				clear();
+				return 1;
+				//createMenu(menu2, 7, main, 1); // restart Menu
 			}
 
 			else if (state == 2) // Create PLO
 			{
-
 				clear();
+				clearBuffer();
+			
 				string n, d;
 				int id,c;
 				cout << "Enter Name: ";
 				getline(cin, n);
-				cout << "Enter Description: \n";
+				cout << "Enter Description: ";
 				getline(cin, d);
-				cout << "Enter Code: \n";
+				cout << "Enter Code: ";
 				cin >> c;
 
-				cout << "Enter Program ID: \n";
+				cout << "Enter Program ID: ";
 				cin >> id;
 
 				main->createPLO(n, c, d);
+				main->addPLOtoProgrambyID(id);
 
-				cout << "\n" << n << " " << d << " " << id << " \n"; // For debug
+				//cout << "\n" << n << " " << d << " " << id << " \n"; // For debug
 				PauseScreen();
-				createMenu(menu2, 4, main, 1); // restart Menu
+				return 1;
+				//createMenu(menu2, 7, main, 1); // restart Menu
 			}
 
-			else if (state == 3)// Done - Exit
+			else if (state == 3)// Display - PLO
 			{
 				clear();
-				exit(0);
+				clearBuffer();
+
+				int id;
+				cout << "Enter Program ID: ";
+				cin >> id;
+				
+				//cout << "\n" << id;
+
+				main->printPLOinProgram(id);
+
+				PauseScreen();
+				return 1;
+				//createMenu(menu2, 7, main, 1); // restart Menu
 			}
 
-			else if (state == 4)
+			else if (state == 4) // Create Course
 			{
+				clear();
+				clearBuffer();
 
+				string CourseName;
+				int CreditHour;
+				int id;
+				string CourseCode;
+				cout << "Enter Course Name: ";
+				getline(cin, CourseName);
+				cout << "Enter Credit Hours: ";
+				cin >> CreditHour;
+				cout << "Enter Course Code: ";
+				getline(cin, CourseCode);
+
+				cout << "Enter PLO ID: ";
+				cin >> id;
+
+				main->createCourse(CourseName, CreditHour, CourseCode);
+				main->addCourseToPLObyID(id);
+
+
+				PauseScreen();
+				return 1;
+				//createMenu(menu2, 7, main, 1); // restart Menu
 			}
 
-			else if (state == 5)
+			else if (state == 5) // Display Course
 			{
+				clear();
+				clearBuffer();
+
+				int idPLO = -1;
+
+				int idProgram;
+				
+				cout << "Enter Program ID: ";
+				cin >> idProgram;
+				cout << "Enter PLO ID (Enter -1 FOR ALL COURSES IN PROGRAM): ";
+				cin >> idPLO;
+
+
+				if (idPLO) {
+					main->printCoursesinPLO(idProgram, idPLO);
+				}
+				else {
+					main->printCoursesinProgram(idProgram);
+				}
+				
+				
+
+				PauseScreen();
+				return 1;
+				//createMenu(menu2, 7, main, 1); // restart Menu
 			}
+			else if (state == 6) //  Logout
+			{
+				clear();
+				return 0;
+				//createMenu(Init, 2, main, 1); // Get back to Login Menu
+			}
+			else if (state == 7){}
 		}
 
 		if (type == 2) {
 			Sleep(150);
-			if (state == 0)
+			if (state == 0) // Create CLO
 			{
+				clear();
+				clearBuffer();
+				if (main->isEmptyCourses()) {
+					cout << "\nFirst Add Courses\n";
 
+					PauseScreen();
+					return 2;
+				}
+
+				string n, d;
+				int c;
+				cout << "Enter CLO Name: ";
+				getline(cin, n);
+				cout << "Enter Description: ";
+				getline(cin, d);
+				cout << "Enter CLO ID: ";
+				cin >> c;
+
+
+				main->createCLO(n, c, d);
+
+				string cid;
+
+				cout << "Enter Course ID : ";
+				getline(cin, cid);
+
+				main->addCLOToCourse(cid);
+
+				string temp;
+				cout << "Keep entring Topics covered in CLO (LEAVE EMPTY TO STOP) : ";
+				cin >> temp;
+				while (temp != "") {
+					main->addTopicCovered(temp);
+					cin >> temp;
+				}
+
+				PauseScreen();
+				return 2;
 			}
 
-			else if (state == 1)
+			else if (state == 1) // Create Evaluation
 			{
+				clear();
+				clearBuffer();
 
+				string type;
+				float marks;
+				float weightage;
+				string date; 
+				int id;
+
+				cout << "Enter Type (Quiz etc) : ";
+				getline(cin, type);
+				cout << "Enter Marks : ";
+				cin >> marks;
+				cout << "Enter Weightage : ";
+				cin >> weightage;
+				cout << "Enter Date : ";
+				getline(cin, date);
+				cout << "Enter ID : ";
+				cin >> id;
+
+				main->createEvaluation(type, marks, weightage, date, id);
+
+
+				PauseScreen();
+				return 2;
 			}
 
-			else if (state == 2)
+			else if (state == 2) // Add Questions to Evaluation
 			{
+				clear();
+				clearBuffer();
 
+				int id;
+				string name;
+
+				cout << "Enter Question ID: ";
+				cin >> id;
+				cout << "Enter Question Name: ";
+				getline(cin, name);
+
+				main->createQuestion(id,name);
+
+				int cloid =1;
+				cout << "Enter CLO ID to add to Question (-1 to stop) : ";
+				while (cloid == -1) {
+					cin >> cloid;
+					main->addCLOToQuestion(id);
+				}
+
+				PauseScreen();
+				return 2;
 			}
 
-			else if (state == 3)
+			else if (state == 3) // Add CLO to Course
 			{
+				clear();
+				clearBuffer();
 
+				cout << "\n----- 20L-0935 - AbdulRahman Nadeem ----\n";
+				cout << "----- Babik ----\n";
+
+				PauseScreen();
+				return 2;
 			}
 
-			else if (state == 4)
+			else if (state == 4) // Display Evaluations
 			{
+				clear();
+				clearBuffer();
 
+				int eid;
+				cout << "Enter Evaluation ID (-1 for all) : ";
+				cin >> eid;
+
+				if (eid == -1) {
+					main->getEvaluation();
+				}
+				else{
+					main->getEvaluation(eid);
+				}
+
+				PauseScreen();
+				return 2;
 			}
 
-			else if (state == 5)
+			else if (state == 5) // Display CLO
 			{
+				clear();
+				clearBuffer();
+
+				int idQid;
+
+				string idCourse;
+				int CLOID;
+				int opt;
+				int EID;
+				cout << "1 - Course Code | 2 - Question ID | 3 - Evaluation : ";
+				cin >> opt;
+				if (opt == 1) {
+					cout << "Enter Course Code: ";
+					getline(cin, idCourse);
+
+					main->printCLObyCourseID(idCourse);
+
+				}
+				else if (opt == 2) {
+					cout << "Enter Question ID: ";
+					cin >> idQid;
+
+					main->printCLObyQID(idQid);
+				}
+				else if (opt == 3) {
+					cout << "Enter Evaluation ID: ";
+					cin >> EID;
+
+					main->printCLObyEID(EID);
+				}
+
+
+
+				PauseScreen();
+				return 2;
+			}
+			else if (state == 6) // Check CLO on Question
+			{
+				clear();
+				clearBuffer();
+
+				int qid1,qid2, eid,cid;
+				cout << "Enter Evaluation ID: ";
+				cin >> eid;
+
+				cout << "Enter CLO ID: ";
+				cin >> cid;
+
+				cout << "Enter Question ID (1): ";
+				cin >> qid1;
+
+				cout << "Enter Question ID (2): ";
+				cin >> qid2;
+
+				if (main->checkCLOTestbyQID(eid, qid1, cid)) {
+					cout << "\nTESTED | SUCCESS\n";
+				}
+				else {
+					cout << "\NOT TESTED | FAILED\n";
+				}
+
+				if (main->checkCLOTestbyQID(eid, qid2, cid)) {
+					cout << "\nTESTED | SUCCESS\n";
+				}
+				else {
+					cout << "\NOT TESTED | FAILED\n";
+				}
+
+				PauseScreen();
+				return 2;
+			}
+			else if (state == 7) // Check CLO by Course on  Evaluation
+			{
+				clear();
+				clearBuffer();
+				string cid;
+				int eid;
+
+				cout << "Enter Course ID: ";
+				getline(cin, cid);
+				cout << "Enter Evaluation ID: ";
+				cin >> eid;
+
+				if (main->checkCLOTestbyCourseID(cid, eid)) {
+					cout << "\nALL ARE TESTED | SUCCESS\n";
+				}
+				else {
+					cout << "\nNOT TESTED | FAILED\n";
+				}
+
+				PauseScreen();
+				return 2;
+
+			}
+			else if (state == 8) // Display Courses
+			{
+				clear();
+				clearBuffer();
+
+				main->PrintAllCourses();
+
+				PauseScreen();
+				return 2;
+			}
+			else if (state == 9) // Logout
+			{
+				clear();
+				return 0;
+				//clear();
+				//createMenu(Init, 2, main, 1); // Get back to Login Menu
 			}
 		}
 		
 	}
 
-	return true;
+	return -1;
+	/*return true;*/
 }
 
-void createMenu(string* s,int size,Interface *main,int type) {
+int createMenu(string* s,int size,Interface *main,int type) {
+	clear();
 	state = 0;
 	firstLoop = 0;
 	
@@ -378,14 +680,18 @@ void createMenu(string* s,int size,Interface *main,int type) {
 	//string strings2[3] = { "Add Academic Officer", "Add Teacher", "Done" };
 
 	
-	bool val = true;
-	while (val)
+	int val = -1;
+	while (true)
 	{
+		
 		val = Menu(s, size, type, main);
+		if (val != -1) {
+			return val;
+		}
+
 		
 
 	}
-	clear();
 
 }
 
@@ -397,11 +703,24 @@ int main() {
 	Interface main;
 	main.debug_start();
 
+	int val = 0;
+
+	while (true) {
+		if (val == 0) {
+			
+			val = createMenu(Init, 2, &main, 0); // Main Menu
+		}
+		else if (val == 1) {
+
+			val = createMenu(menu2, 7, &main, 1); // AO Menu
+		}
+		else if (val == 2) {
+
+			val = createMenu(menu3, 10, &main, 2); // Teacher Menu
+		}
+	}
 
 	
-
-	createMenu(Init, 2,&main,0);
-
 
 	clear();
 	return 0;

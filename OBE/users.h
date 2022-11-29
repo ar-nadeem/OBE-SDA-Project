@@ -44,7 +44,7 @@ public:
 	// For AO
 	virtual Program* createProgram(string n,string d, int id) { return nullptr; }
 	virtual PLO* createPLO(string n, int c, string d) { return nullptr; }
-	virtual Course* createCourse(string cc, int cr, string cn) { return nullptr; }
+	virtual Course* createCourse(string CourseName, int CreditHour, string CourseCode) { return nullptr; }
 	// For Teacher
 	virtual CLO* createCLO(string n, int c, string d) { return nullptr; }
 	virtual Evaluation* createEvaluation(string type, float marks, float weightage, string date,int id) { return nullptr; }
@@ -129,8 +129,8 @@ public:
 		PLO* temp = new PLO(n, c, d);
 		return temp;
 	}
-	Course* createCourse(string cc, int cr, string cn) {
-		Course* temp = new Course(cc, cr, cn);
+	Course* createCourse(string CourseName, int CreditHour, string CourseCode) {
+		Course* temp = new Course(CourseName, CreditHour, CourseCode);
 		return temp;
 	}
 
