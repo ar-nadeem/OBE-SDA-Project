@@ -25,7 +25,15 @@ public:
 	
 	void display() {
 		cout << "Question " << this->id << ":" << this->name << endl;
-		this->test();
+		
+		if (clo.size() > 0) {
+			cout << "\nCLO for this Question\n";
+			this->DisplayAllCLO();
+		}
+		else {
+			cout << "NO CLO FOR THIS QUESTION !\n";
+		}
+		cout << endl;
 	}
 
 	// Add CLO that are tested
@@ -41,7 +49,7 @@ public:
 		return false;
 	}
 
-	void test() {
+	void DisplayAllCLO() {
 		for (auto& obj : clo) {
 			obj->display();
 		}

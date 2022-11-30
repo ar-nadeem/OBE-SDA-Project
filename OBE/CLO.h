@@ -34,10 +34,14 @@ public:
 		cout << "Code: " << this->code << endl;
 		cout << "Descrition: " << this->desc << endl;
 
-		cout << "Topic Covered: ";
-		for (auto& element : topic_covered) {
-			cout << element << ", ";
+		
+		if (topic_covered.size() > 0) {
+			cout << "Topic Covered: ";
+			for (auto& element : topic_covered) {
+				cout << element << ", ";
+			}
 		}
+
 		cout << endl;
 	}
 

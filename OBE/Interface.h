@@ -117,7 +117,7 @@ public:
 
 		clos.push_back(new CLO("Graphs", 2, "How to draw Graphs"));
 		this->addCLOToCourse("M101");
-		clos.push_back(new CLO("Limit", 2, "How to calculate Limits"));
+		clos.push_back(new CLO("Limit", 3, "How to calculate Limits"));
 		this->addCLOToCourse("M101");
 
 		//this->addTopicCovered("Graphs");
@@ -129,11 +129,12 @@ public:
 		this->addQuestionsToEvaluation(1);
 		this->addCLOToQuestion(1);
 
-		questions.push_back(new Question(1, "What is Cin ?"));
-		this->addCLOToQuestion(5);
+		questions.push_back(new Question(2, "What is Cin ?"));
 		this->addQuestionsToEvaluation(1);
+		this->addCLOToQuestion(5);
+		
 
-		questions.push_back(new Question(1, "What is Cout ?"));
+		questions.push_back(new Question(3, "What is Cout ?"));
 		this->addCLOToQuestion(6);
 		this->addQuestionsToEvaluation(1);
 		
@@ -338,7 +339,6 @@ public:
 				i->addQuestions(this->questions.back());;
 				return true;
 			}
-			
 		}
 		return false;
 	}
@@ -381,9 +381,9 @@ public:
 				//i->addCLO(this->clos.back());
 				return true;
 			}
-			return false;
+			
 		}
-
+		return false;
 	}
 
 
@@ -402,9 +402,9 @@ public:
 				i->addCLO(this->clos.back());;
 				return true;
 			}
-			return false;
+			
 		}
-
+		return false;
 	}
 	bool addCLOToCourse() {
 		if (this->courses.size() == 0) {

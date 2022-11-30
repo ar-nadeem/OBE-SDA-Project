@@ -11,6 +11,13 @@
 #include <fstream>
 #include <string>
 #include "Interface.h"
+
+// Didnt Have to all the validation checks e.g Program do not check for all ID to be unique
+// Created Datahandling Library from saving of objects, but dont have time to implement it.
+
+
+
+
 void clear()
 {
 	system("cls");
@@ -429,6 +436,7 @@ int Menu(string* String, int size, int type, Interface* main)
 				string n, d;
 				int c;
 				cout << "Enter CLO Name: ";
+				clearBuffer();
 				getline(cin, n);
 				cout << "Enter Description: ";
 				getline(cin, d);
@@ -441,14 +449,15 @@ int Menu(string* String, int size, int type, Interface* main)
 				string cid;
 
 				cout << "Enter Course ID : ";
+				clearBuffer();
 				getline(cin, cid);
 
 				main->addCLOToCourse(cid);
 
 				string temp;
-				cout << "Keep entring Topics covered in CLO (LEAVE EMPTY TO STOP) : ";
+				cout << "Keep entring Topics covered in CLO ( -1 to STOP) : ";
 				cin >> temp;
-				while (temp != "") {
+				while (temp != "-1") {
 					main->addTopicCovered(temp);
 					cin >> temp;
 				}
@@ -475,12 +484,14 @@ int Menu(string* String, int size, int type, Interface* main)
 				cout << "Enter Weightage : ";
 				cin >> weightage;
 				cout << "Enter Date : ";
+				clearBuffer();
 				getline(cin, date);
 				cout << "Enter ID : ";
 				cin >> id;
 
 				main->createEvaluation(type, marks, weightage, date, id);
 
+				main->getEvaluation();
 
 				PauseScreen();
 				return 2;
@@ -493,20 +504,27 @@ int Menu(string* String, int size, int type, Interface* main)
 
 				int id;
 				string name;
-
+				int eid;
 				cout << "Enter Question ID: ";
 				cin >> id;
 				cout << "Enter Question Name: ";
+				clearBuffer();
 				getline(cin, name);
+				cout << "Enter Evaluation ID: ";
+				cin >> eid;
 
 				main->createQuestion(id,name);
 
-				int cloid =1;
+				clearBuffer();
+				int cloid = 1;
 				cout << "Enter CLO ID to add to Question (-1 to stop) : ";
-				while (cloid == -1) {
+				while (true) {
 					cin >> cloid;
+					if (cloid == -1) { break; }
 					main->addCLOToQuestion(id);
 				}
+
+				main->addQuestionsToEvaluation(eid);
 
 				PauseScreen();
 				return 2;
@@ -559,6 +577,7 @@ int Menu(string* String, int size, int type, Interface* main)
 				cin >> opt;
 				if (opt == 1) {
 					cout << "Enter Course Code: ";
+					clearBuffer();
 					getline(cin, idCourse);
 
 					main->printCLObyCourseID(idCourse);
@@ -601,17 +620,17 @@ int Menu(string* String, int size, int type, Interface* main)
 				cin >> qid2;
 
 				if (main->checkCLOTestbyQID(eid, qid1, cid)) {
-					cout << "\nTESTED | SUCCESS\n";
+					cout << "\nQuestion " << qid1 << " satisfies the given CLO\n";
 				}
 				else {
-					cout << "\NOT TESTED | FAILED\n";
+					cout << "\nQuestion " << qid1 << " DOES NOT satisfy the given CLO\n";
 				}
 
 				if (main->checkCLOTestbyQID(eid, qid2, cid)) {
-					cout << "\nTESTED | SUCCESS\n";
+					cout << "\nQuestion "<<qid2<<" satisfies the given CLO\n";
 				}
 				else {
-					cout << "\NOT TESTED | FAILED\n";
+					cout << "\nQuestion " << qid2 << " DOES NOT satisfy the given CLO\n";
 				}
 
 				PauseScreen();
@@ -701,6 +720,7 @@ int main() {
 
 
 	Interface main;
+	//main.firstStart();
 	main.debug_start();
 
 	int val = 0;
@@ -709,20 +729,23 @@ int main() {
 		if (val == 0) {
 			
 			val = createMenu(Init, 2, &main, 0); // Main Menu
+			clearBuffer();
 		}
 		else if (val == 1) {
 
 			val = createMenu(menu2, 7, &main, 1); // AO Menu
+			clearBuffer();
 		}
 		else if (val == 2) {
 
 			val = createMenu(menu3, 10, &main, 2); // Teacher Menu
+			clearBuffer();
 		}
 	}
 
 	
 
-	clear();
+	//clear();
 	return 0;
 
 }

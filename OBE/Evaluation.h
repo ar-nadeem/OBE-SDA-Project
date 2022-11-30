@@ -23,7 +23,7 @@ public:
 		this->marks = marks;
 		this->weightage = weightage;
 		this->date = date;
-		this->id;
+		this->id = id;
 		
 	}
 
@@ -31,11 +31,13 @@ public:
 	int getID() { return this->id; }
 
 	void display() {
-		cout << this->type << " " << this->marks << " " << this->weightage << "% " << this->date << endl;
-		cout << "Questions\n";
+		cout <<"Evaluation : " << this->type << " " << this->marks << " " << this->weightage << "% " << this->date << endl;
+		cout << "\n-------------------Questions-----------------------\n";
 		for (auto& i : questions) {
 			i->display();
 		}
+
+		cout << "\n~~~~~~~~~~~~~~~~END For Questions~~~~~~~~~~~~~~~~~\n\n";
 	}
 
 	// Add Questions
