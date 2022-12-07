@@ -22,6 +22,17 @@ private:
 	vector <Evaluation*> evaluations;
 	vector <Question*> questions;
 
+	DataHandle<User>* usersData = new DataHandle<User>("User");
+	DataHandle<Program> *programsData = new DataHandle<Program>("Program");
+	DataHandle<PLO> *plosData = new DataHandle<PLO> ("PLO");
+	DataHandle<Course> *coursesData= new DataHandle<Course>("Courses");
+	DataHandle<CLO> *closData = new DataHandle<CLO>("CLO");
+	DataHandle<Evaluation>* evaluationsData = new DataHandle<Evaluation>("Evaluation");
+	DataHandle<Question>* questionsData = new DataHandle<Question>("Question");
+
+
+
+
 	User* current_user;
 
 
@@ -111,18 +122,18 @@ public:
 		this->addCLOToCourse("CS101");
 		clos.push_back(new CLO("Introduction to Output", 6, "COUT"));
 		this->addCLOToCourse("CS101");
-		//this->addTopicCovered("Pointers");
-		//this->addTopicCovered("CIN");
-		//this->addTopicCovered("Cout");
+		this->addTopicCovered("Pointers");
+		this->addTopicCovered("CIN");
+		this->addTopicCovered("Cout");
 
 		clos.push_back(new CLO("Graphs", 2, "How to draw Graphs"));
 		this->addCLOToCourse("M101");
 		clos.push_back(new CLO("Limit", 3, "How to calculate Limits"));
 		this->addCLOToCourse("M101");
 
-		//this->addTopicCovered("Graphs");
-		//this->addTopicCovered("Limits");
-		//this->addTopicCovered("Taylor Series");
+		this->addTopicCovered("Graphs");
+		this->addTopicCovered("Limits");
+		this->addTopicCovered("Taylor Series");
 
 		evaluations.push_back(new Evaluation("Quiz",10,10,"10-Dec-2022",1));
 		questions.push_back(new Question(1,"What is Pointer ?"));
@@ -473,8 +484,50 @@ public:
 		return false;
 	}
 
+	void Save() {
+		this->Delete();
+		for (auto& obj : users) {
+			usersData->saveData(obj->saveToFile());
+		}
+		for (auto& obj : programs) {
+			programsData->saveData(obj->saveToFile());
+		}
+		for (auto& obj : clos) {
+			closData->saveData(obj->saveToFile());
+		}
+		for (auto& obj : plos) {
+			plosData->saveData(obj->saveToFile());
+		}
+		for (auto& obj : courses) {
+			coursesData->saveData(obj->saveToFile());
+		}
+		
+	}
+
+	void Delete() {
+		
+			usersData->DeleteData();
+		
+			programsData->DeleteData();
+		
+		
+			closData->DeleteData();
+		
+		
+			plosData->DeleteData();
+		
+		
+			coursesData->DeleteData();
+		
+
+	}
+
 
 	~Interface() {
+
+		
+
+
 		users.clear();
 		programs.clear();
 		plos.clear();

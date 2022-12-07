@@ -33,6 +33,8 @@ public:
 		this->type = type;
 	}
 
+
+
 	// Get Datastream to save into file
 	string getData() {
 		return(getName() + "," + getUsername() + "," + getPassword() + "\n");
@@ -49,7 +51,7 @@ public:
 	virtual CLO* createCLO(string n, int c, string d) { return nullptr; }
 	virtual Evaluation* createEvaluation(string type, float marks, float weightage, string date,int id) { return nullptr; }
 	virtual Question* createQuestion(int id, string name) { return nullptr; }
-
+	virtual string saveToFile() { return ""; }
 	virtual void getInfo() {
 		return;
 	}
@@ -99,10 +101,10 @@ public:
 
 
 	//// Save to File
-	void saveToFile(AcademicOfficer * obj) {
-		d->saveData(obj->getName()+
-			"," + obj->getUsername()+
-			"," + obj->getPassword()+
+	string saveToFile() {
+		return(this->getType() + "," + this->getName() +
+			"," + this->getUsername() +
+			"," + this->getPassword() +
 			"\n");
 	}
 
@@ -185,10 +187,11 @@ public:
 
 
 	//// Save to File
-	void saveToFile(Teacher* obj) {
-		d->saveData(obj->getName() +
-			"," + obj->getUsername() +
-			"," + obj->getPassword() +
+	string saveToFile() {
+
+		return(this->getType()+"," + this->getName() +
+			"," + this->getUsername() +
+			"," + this->getPassword() +
 			"\n");
 	}
 

@@ -28,6 +28,12 @@ public:
 		cout << "ID: " << this->id << endl;
 	}
 
+	string saveToFile() {
+		return(this->name +
+			"," + this->dept +
+			"," + to_string(this->id) + "\n");
+	}
+
 	// Getter for ID
 	int getID() { return(this->id); }
 

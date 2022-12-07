@@ -26,6 +26,18 @@ public:
 	}
 
 	// Write object to file.
+	void DeleteData() {
+		f.open(file, ios::out);
+		if (!f) {
+			cout << "FAILED TO CREATE/ACCESS FILE in function Savedata of data.h\n";
+			return;
+		}
+
+		f << "";
+
+		f.close();
+
+	}
 	void saveData(string s) {
 		f.open(file, ios::app);
 		if (!f) {

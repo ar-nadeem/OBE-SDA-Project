@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module Interface-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="328" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="83" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="46" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="7.130" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.804" level="0" />
+<weighted_methods_per_class_unity value="41" level="0" />
+<weighted_methods_per_class_visibility value="39" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="3" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="15" />
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>Interface()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="86" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="20" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>PrintAllCourses()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="370" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>addCLOToCourse()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="409" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>addCLOToCourse(string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="399" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>addCLOToQuestion(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="377" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>addCourseToPLO()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="242" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>addCourseToPLObyID(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="249" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>addPLOtoProgram()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="258" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>addPLOtoProgrambyID(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="265" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>addQuestionsToEvaluation()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="327" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>addQuestionsToEvaluation(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="336" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>addTopicCovered(string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="314" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>checkCLOTestbyCLOID(int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="467" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>checkCLOTestbyCourseID(string,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="450" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="6.000" level="1" />
+</member_function>
+<member_function>
+<name>checkCLOTestbyQID(int,int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="439" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>cls()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="30" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>createCLO(string,int,string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="310" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>createCourse(string,int,string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="237" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>createEvaluation(string,float,float,string,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="319" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>createPLO(string,int,string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="234" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>createProgram(string,string,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="231" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>createQuestion(int,string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="323" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>debug_start()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="91" />
+</extent>
+<lines_of_code value="38" level="1" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="5.429" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>display_current_user()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="217" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>firstStart()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="151" />
+</extent>
+<lines_of_code value="39" level="1" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="6.500" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.833" level="0" />
+</member_function>
+<member_function>
+<name>getAllPrograms()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="275" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getCLObyCourse(string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="418" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getEvaluation()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="426" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getEvaluation(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="432" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getTypeofUser()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="223" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getUser()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="226" />
+</extent>
+<lines_of_code value="3" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>handleLogin(string,string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="209" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>handleLoginUser(string,string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="39" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="5.000" level="0" />
+</member_function>
+<member_function>
+<name>isEmptyCourses()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="51" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>printCLObyCourseID(string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="346" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>printCLObyEID(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="362" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>printCLObyQID(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="354" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>printCoursesinPLO(int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="299" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>printCoursesinProgram(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="291" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>printPLOinProgram(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="283" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>~Interface()</name>
+<extent>
+<description>definition</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="477" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>Interface</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>User</name>
+<visible>false</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="25" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="39" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="39" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="209" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="209" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="231" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="231" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="234" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="234" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="237" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="237" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="310" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="310" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="314" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="319" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="319" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="323" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="346" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="399" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="418" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="450" />
+</extent>
+<name>vector</name>
+<visible>false</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="17" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="18" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="19" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="20" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="21" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="22" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="23" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

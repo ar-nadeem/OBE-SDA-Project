@@ -36,6 +36,11 @@ public:
 		cout << "Descrition: " << this->desc << endl;
 	}
 
+	string saveToFile() {
+		return(this->name +"," +
+		to_string(this->code) + "," +
+		this->desc + "\n");
+	}
 
 	// Add course to the list of courses.
 	void addCourses(Course* obj) {

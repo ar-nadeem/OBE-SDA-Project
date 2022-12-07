@@ -12,11 +12,6 @@
 #include <string>
 #include "Interface.h"
 
-// Didnt Have to all the validation checks e.g Program do not check for all ID to be unique
-// Created Datahandling Library from saving of objects, but dont have time to implement it.
-
-
-
 
 void clear()
 {
@@ -47,7 +42,7 @@ string test[10] = { "Login", "Done","Login", "Done","Login", "Done","Login", "Do
 
 
 
-string Init[2] = { "Login", "Exit" };
+string Init[3] = { "Login","Signup","Exit"};
 string menu2[7] = { "Create Program", "Display Program","Create PLO","Display PLO","Create Course","Display Course","Logout"};
 string menu3[10] = { "Create CLO","Create Evaluation","Add Questions to Evaluation","------","Display Evaluations","Display CLO","Check CLO on Question","Check CLO on Course","Display Courses","Logout"};
 
@@ -268,7 +263,17 @@ int Menu(string* String, int size, int type, Interface* main)
 
 			
 			}
-			else if (state == 1) // Done - Exit
+			else if (state == 1) // Signup
+			{
+				clearBuffer(); // Clear CIN it is a must other wise new lines in buffer messes with program
+				clear();
+
+				main->firstStart();
+
+				PauseScreen();
+				return 0; // restart menu 0
+			}
+			else if (state == 2) // Done - Exit
 			{
 				clear();
 				exit(0);
@@ -722,24 +727,27 @@ int main() {
 	Interface main;
 	//main.firstStart();
 	main.debug_start();
-
+	main.Save();
 	int val = 0;
 
 	while (true) {
 		if (val == 0) {
 			
-			val = createMenu(Init, 2, &main, 0); // Main Menu
+			val = createMenu(Init, 3, &main, 0); // Main Menu
 			clearBuffer();
+			main.Save();
 		}
 		else if (val == 1) {
 
 			val = createMenu(menu2, 7, &main, 1); // AO Menu
 			clearBuffer();
+			main.Save();
 		}
 		else if (val == 2) {
 
 			val = createMenu(menu3, 10, &main, 2); // Teacher Menu
 			clearBuffer();
+			main.Save();
 		}
 	}
 

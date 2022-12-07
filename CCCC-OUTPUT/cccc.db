@@ -1,0 +1,429 @@
+CCCC_Module@AcademicOfficer@class@
+CCCC_ModExt@AcademicOfficer@class@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@79@definition@F??T0@LOC:6 COM:1 MVG:0@0@d@
+CCCC_Module@CLO@class@
+CCCC_ModExt@CLO@class@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h@11@definition@F???2@LOC:8 COM:3 MVG:0@2@d@
+CCCC_Module@Course@class@
+CCCC_ModExt@Course@class@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h@13@definition@F???2@LOC:8 COM:113 MVG:0@2@d@
+CCCC_Module@DataHandle@class@
+CCCC_ModExt@DataHandle@class@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\data.h@14@definition@F???2@LOC:6 COM:0 MVG:0@2@d@
+CCCC_ModExt@DataHandle@class@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@81@declaration@F??T2@LOC:1 COM:0 MVG:0@2@D@
+CCCC_ModExt@DataHandle@class@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@153@declaration@F??T2@LOC:1 COM:0 MVG:0@2@D@
+CCCC_Module@Evaluation@class@
+CCCC_ModExt@Evaluation@class@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h@10@definition@F???2@LOC:10 COM:0 MVG:0@2@d@
+CCCC_Module@Interface@class@
+CCCC_ModExt@Interface@class@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@15@definition@F???2@LOC:12 COM:0 MVG:0@2@d@
+CCCC_Module@PLO@class@
+CCCC_ModExt@PLO@class@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h@11@definition@F???2@LOC:8 COM:0 MVG:0@2@d@
+CCCC_Module@Program@class@
+CCCC_ModExt@Program@class@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h@9@definition@F???2@LOC:7 COM:1 MVG:0@2@d@
+CCCC_Module@Question@class@
+CCCC_ModExt@Question@class@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h@12@definition@F???2@LOC:6 COM:0 MVG:0@2@d@
+CCCC_Module@Teacher@class@
+CCCC_ModExt@Teacher@class@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@151@definition@F??T0@LOC:5 COM:1 MVG:0@0@d@
+CCCC_Module@User@class@
+CCCC_ModExt@User@class@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@9@definition@F??T2@LOC:8 COM:1 MVG:0@2@d@
+CCCC_Module@char@builtin@
+CCCC_ModExt@char@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@double@builtin@
+CCCC_ModExt@double@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@float@builtin@
+CCCC_ModExt@float@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@fstream@@
+CCCC_Module@int@builtin@
+CCCC_ModExt@int@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@long@builtin@
+CCCC_ModExt@long@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@string@@
+CCCC_Module@vector@@
+CCCC_Module@void@builtin@
+CCCC_ModExt@void@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Member@AcademicOfficer@AcademicOfficer@@()@
+CCCC_MemExt@AcademicOfficer@AcademicOfficer@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@88@definition@F??T0@LOC:3 COM:1 MVG:0@0@d@
+CCCC_Member@AcademicOfficer@AcademicOfficer@@(string,string,string)@
+CCCC_MemExt@AcademicOfficer@AcademicOfficer@@(string,string,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@94@definition@F??T0@LOC:3 COM:1 MVG:0@0@d@
+CCCC_Member@AcademicOfficer@createCourse@@(string,int,string)@
+CCCC_MemExt@AcademicOfficer@createCourse@@(string,int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@132@definition@F??T0@LOC:4 COM:0 MVG:1@0@d@
+CCCC_Member@AcademicOfficer@createPLO@@(string,int,string)@
+CCCC_MemExt@AcademicOfficer@createPLO@@(string,int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@128@definition@F??T0@LOC:4 COM:1 MVG:1@0@d@
+CCCC_Member@AcademicOfficer@createProgram@@(string,string,int)@
+CCCC_MemExt@AcademicOfficer@createProgram@@(string,string,int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@123@definition@F??T0@LOC:4 COM:2 MVG:1@0@d@
+CCCC_Member@AcademicOfficer@getInfo@@()@
+CCCC_MemExt@AcademicOfficer@getInfo@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@139@definition@F??T0@LOC:6 COM:1 MVG:0@0@d@
+CCCC_Member@AcademicOfficer@reConstruct@@(AcademicOfficer *)@
+CCCC_MemExt@AcademicOfficer@reConstruct@@(AcademicOfficer *)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@110@definition@F??T0@LOC:7 COM:1 MVG:0@0@d@
+CCCC_Member@AcademicOfficer@saveToFile@@(AcademicOfficer *)@
+CCCC_MemExt@AcademicOfficer@saveToFile@@(AcademicOfficer *)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@102@definition@F??T0@LOC:6 COM:1 MVG:0@0@d@
+CCCC_Member@AcademicOfficer@~AcademicOfficer@@()@
+CCCC_MemExt@AcademicOfficer@~AcademicOfficer@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@147@definition@F??T0@LOC:0 COM:0 MVG:0@0@d@
+CCCC_Member@CLO@CLO@@(string,int)@
+CCCC_MemExt@CLO@CLO@@(string,int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h@24@definition@F???0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Member@CLO@CLO@@(string,int,string)@
+CCCC_MemExt@CLO@CLO@@(string,int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h@19@definition@F???0@LOC:5 COM:1 MVG:0@0@d@
+CCCC_Member@CLO@addTopicCovered@@(string)@
+CCCC_MemExt@CLO@addTopicCovered@@(string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h@48@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@CLO@display@@()@
+CCCC_MemExt@CLO@display@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h@32@definition@F???0@LOC:12 COM:1 MVG:2@0@d@
+CCCC_Member@CLO@getID@@()@
+CCCC_MemExt@CLO@getID@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h@53@definition@F???0@LOC:1 COM:1 MVG:1@0@d@
+CCCC_Member@Course@Course@@(string,int,string)@
+CCCC_MemExt@Course@Course@@(string,int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h@27@definition@F???0@LOC:5 COM:1 MVG:0@0@d@
+CCCC_Member@Course@addCLO@@(CLO *)@
+CCCC_MemExt@Course@addCLO@@(CLO *)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h@47@definition@F???0@LOC:3 COM:1 MVG:0@0@d@
+CCCC_Member@Course@display@@()@
+CCCC_MemExt@Course@display@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h@35@definition@F???0@LOC:5 COM:1 MVG:0@0@d@
+CCCC_Member@Course@getAllCLO@@()@
+CCCC_MemExt@Course@getAllCLO@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h@59@definition@F???0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@Course@getCLObyID@@(int)@
+CCCC_MemExt@Course@getCLObyID@@(int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h@62@definition@F???0@LOC:7 COM:1 MVG:3@0@d@
+CCCC_Member@Course@getID@@()@
+CCCC_MemExt@Course@getID@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h@43@definition@F???0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@Course@listAllCLO@@()@
+CCCC_MemExt@Course@listAllCLO@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h@52@definition@F???0@LOC:6 COM:1 MVG:1@0@d@
+CCCC_Member@DataHandle@DataHandle@@(string)@
+CCCC_MemExt@DataHandle@DataHandle@@(string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\data.h@22@definition@F???0@LOC:4 COM:2 MVG:0@0@d@
+CCCC_Member@DataHandle@reConstruct@@()@
+CCCC_MemExt@DataHandle@reConstruct@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\data.h@43@definition@F???0@LOC:27 COM:2 MVG:6@0@d@
+CCCC_Member@DataHandle@saveData@@(string)@
+CCCC_MemExt@DataHandle@saveData@@(string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\data.h@29@definition@F???0@LOC:9 COM:1 MVG:2@0@d@
+CCCC_Member@Evaluation@Evaluation@@(string,float,float,string,int)@
+CCCC_MemExt@Evaluation@Evaluation@@(string,float,float,string,int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h@21@definition@F???0@LOC:7 COM:0 MVG:0@0@d@
+CCCC_Member@Evaluation@addQuestions@@(Question *)@
+CCCC_MemExt@Evaluation@addQuestions@@(Question *)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h@44@definition@F???0@LOC:3 COM:1 MVG:0@0@d@
+CCCC_Member@Evaluation@checkCLOTestbyCLOID@@(int)@
+CCCC_MemExt@Evaluation@checkCLOTestbyCLOID@@(int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h@70@definition@F???0@LOC:10 COM:2 MVG:4@0@d@
+CCCC_Member@Evaluation@checkCLOTestbyQID@@(int,int)@
+CCCC_MemExt@Evaluation@checkCLOTestbyQID@@(int,int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h@49@definition@F???0@LOC:9 COM:2 MVG:3@0@d@
+CCCC_Member@Evaluation@display@@()@
+CCCC_MemExt@Evaluation@display@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h@33@definition@F???0@LOC:8 COM:0 MVG:1@0@d@
+CCCC_Member@Evaluation@displayAllCLO@@()@
+CCCC_MemExt@Evaluation@displayAllCLO@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h@60@definition@F???0@LOC:5 COM:0 MVG:1@0@d@
+CCCC_Member@Evaluation@getID@@()@
+CCCC_MemExt@Evaluation@getID@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h@31@definition@F???0@LOC:1 COM:1 MVG:1@0@d@
+CCCC_Member@Interface@Interface@@()@
+CCCC_MemExt@Interface@Interface@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@86@definition@F???0@LOC:3 COM:20 MVG:0@0@d@
+CCCC_Member@Interface@PrintAllCourses@@()@
+CCCC_MemExt@Interface@PrintAllCourses@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@370@definition@F???0@LOC:5 COM:0 MVG:1@0@d@
+CCCC_Member@Interface@addCLOToCourse@@()@
+CCCC_MemExt@Interface@addCLOToCourse@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@409@definition@F???0@LOC:7 COM:0 MVG:3@0@d@
+CCCC_Member@Interface@addCLOToCourse@@(string)@
+CCCC_MemExt@Interface@addCLOToCourse@@(string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@399@definition@F???0@LOC:9 COM:7 MVG:4@0@d@
+CCCC_Member@Interface@addCLOToQuestion@@(int)@
+CCCC_MemExt@Interface@addCLOToQuestion@@(int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@377@definition@F???0@LOC:9 COM:1 MVG:4@0@d@
+CCCC_Member@Interface@addCourseToPLO@@()@
+CCCC_MemExt@Interface@addCourseToPLO@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@242@definition@F???0@LOC:7 COM:0 MVG:3@0@d@
+CCCC_Member@Interface@addCourseToPLObyID@@(int)@
+CCCC_MemExt@Interface@addCourseToPLObyID@@(int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@249@definition@F???0@LOC:9 COM:0 MVG:4@0@d@
+CCCC_Member@Interface@addPLOtoProgram@@()@
+CCCC_MemExt@Interface@addPLOtoProgram@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@258@definition@F???0@LOC:7 COM:0 MVG:3@0@d@
+CCCC_Member@Interface@addPLOtoProgrambyID@@(int)@
+CCCC_MemExt@Interface@addPLOtoProgrambyID@@(int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@265@definition@F???0@LOC:9 COM:0 MVG:4@0@d@
+CCCC_Member@Interface@addQuestionsToEvaluation@@()@
+CCCC_MemExt@Interface@addQuestionsToEvaluation@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@327@definition@F???0@LOC:7 COM:0 MVG:3@0@d@
+CCCC_Member@Interface@addQuestionsToEvaluation@@(int)@
+CCCC_MemExt@Interface@addQuestionsToEvaluation@@(int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@336@definition@F???0@LOC:9 COM:0 MVG:4@0@d@
+CCCC_Member@Interface@addTopicCovered@@(string)@
+CCCC_MemExt@Interface@addTopicCovered@@(string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@314@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Interface@checkCLOTestbyCLOID@@(int,int)@
+CCCC_MemExt@Interface@checkCLOTestbyCLOID@@(int,int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@467@definition@F???0@LOC:8 COM:0 MVG:4@0@d@
+CCCC_Member@Interface@checkCLOTestbyCourseID@@(string,int)@
+CCCC_MemExt@Interface@checkCLOTestbyCourseID@@(string,int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@450@definition@F???0@LOC:14 COM:1 MVG:6@0@d@
+CCCC_Member@Interface@checkCLOTestbyQID@@(int,int,int)@
+CCCC_MemExt@Interface@checkCLOTestbyQID@@(int,int,int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@439@definition@F???0@LOC:8 COM:0 MVG:4@0@d@
+CCCC_Member@Interface@cls@@()@
+CCCC_MemExt@Interface@cls@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@30@definition@F???2@LOC:3 COM:1 MVG:0@2@d@
+CCCC_Member@Interface@createCLO@@(string,int,string)@
+CCCC_MemExt@Interface@createCLO@@(string,int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@310@definition@F???0@LOC:3 COM:1 MVG:0@0@d@
+CCCC_Member@Interface@createCourse@@(string,int,string)@
+CCCC_MemExt@Interface@createCourse@@(string,int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@237@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Interface@createEvaluation@@(string,float,float,string,int)@
+CCCC_MemExt@Interface@createEvaluation@@(string,float,float,string,int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@319@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Interface@createPLO@@(string,int,string)@
+CCCC_MemExt@Interface@createPLO@@(string,int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@234@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Interface@createProgram@@(string,string,int)@
+CCCC_MemExt@Interface@createProgram@@(string,string,int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@231@definition@F???0@LOC:3 COM:1 MVG:0@0@d@
+CCCC_Member@Interface@createQuestion@@(int,string)@
+CCCC_MemExt@Interface@createQuestion@@(int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@323@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Interface@debug_start@@()@
+CCCC_MemExt@Interface@debug_start@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@91@definition@F???0@LOC:38 COM:7 MVG:0@0@d@
+CCCC_Member@Interface@display_current_user@@()@
+CCCC_MemExt@Interface@display_current_user@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@217@definition@F???0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Member@Interface@firstStart@@()@
+CCCC_MemExt@Interface@firstStart@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@151@definition@F???0@LOC:39 COM:6 MVG:5@0@d@
+CCCC_Member@Interface@getAllPrograms@@()@
+CCCC_MemExt@Interface@getAllPrograms@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@275@definition@F???0@LOC:5 COM:0 MVG:1@0@d@
+CCCC_Member@Interface@getCLObyCourse@@(string)@
+CCCC_MemExt@Interface@getCLObyCourse@@(string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@418@definition@F???0@LOC:7 COM:0 MVG:2@0@d@
+CCCC_Member@Interface@getEvaluation@@()@
+CCCC_MemExt@Interface@getEvaluation@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@426@definition@F???0@LOC:5 COM:0 MVG:1@0@d@
+CCCC_Member@Interface@getEvaluation@@(int)@
+CCCC_MemExt@Interface@getEvaluation@@(int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@432@definition@F???0@LOC:6 COM:0 MVG:2@0@d@
+CCCC_Member@Interface@getTypeofUser@@()@
+CCCC_MemExt@Interface@getTypeofUser@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@223@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Interface@getUser@@()@
+CCCC_MemExt@Interface@getUser@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@226@definition@F???0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@Interface@handleLogin@@(string,string)@
+CCCC_MemExt@Interface@handleLogin@@(string,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@209@definition@F???0@LOC:5 COM:0 MVG:3@0@d@
+CCCC_Member@Interface@handleLoginUser@@(string,string)@
+CCCC_MemExt@Interface@handleLoginUser@@(string,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@39@definition@F???2@LOC:8 COM:1 MVG:5@2@d@
+CCCC_Member@Interface@isEmptyCourses@@()@
+CCCC_MemExt@Interface@isEmptyCourses@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@51@definition@F???0@LOC:6 COM:0 MVG:3@0@d@
+CCCC_Member@Interface@printCLObyCourseID@@(string)@
+CCCC_MemExt@Interface@printCLObyCourseID@@(string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@346@definition@F???0@LOC:7 COM:0 MVG:2@0@d@
+CCCC_Member@Interface@printCLObyEID@@(int)@
+CCCC_MemExt@Interface@printCLObyEID@@(int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@362@definition@F???0@LOC:7 COM:0 MVG:2@0@d@
+CCCC_Member@Interface@printCLObyQID@@(int)@
+CCCC_MemExt@Interface@printCLObyQID@@(int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@354@definition@F???0@LOC:7 COM:0 MVG:2@0@d@
+CCCC_Member@Interface@printCoursesinPLO@@(int,int)@
+CCCC_MemExt@Interface@printCoursesinPLO@@(int,int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@299@definition@F???0@LOC:7 COM:0 MVG:2@0@d@
+CCCC_Member@Interface@printCoursesinProgram@@(int)@
+CCCC_MemExt@Interface@printCoursesinProgram@@(int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@291@definition@F???0@LOC:7 COM:0 MVG:2@0@d@
+CCCC_Member@Interface@printPLOinProgram@@(int)@
+CCCC_MemExt@Interface@printPLOinProgram@@(int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@283@definition@F???0@LOC:7 COM:0 MVG:2@0@d@
+CCCC_Member@Interface@~Interface@@()@
+CCCC_MemExt@Interface@~Interface@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@477@definition@F???0@LOC:9 COM:0 MVG:0@0@d@
+CCCC_Member@PLO@PLO@@(string,int)@
+CCCC_MemExt@PLO@PLO@@(string,int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h@19@definition@F???0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Member@PLO@PLO@@(string,int,string)@
+CCCC_MemExt@PLO@PLO@@(string,int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h@24@definition@F???0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Member@PLO@addCourses@@(Course *)@
+CCCC_MemExt@PLO@addCourses@@(Course *)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h@41@definition@F???0@LOC:3 COM:1 MVG:0@0@d@
+CCCC_Member@PLO@display@@()@
+CCCC_MemExt@PLO@display@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h@33@definition@F???0@LOC:5 COM:1 MVG:0@0@d@
+CCCC_Member@PLO@getID@@()@
+CCCC_MemExt@PLO@getID@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h@30@definition@F???0@LOC:1 COM:1 MVG:1@0@d@
+CCCC_Member@PLO@listAllCourses@@()@
+CCCC_MemExt@PLO@listAllCourses@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h@46@definition@F???0@LOC:6 COM:1 MVG:1@0@d@
+CCCC_Member@Program@Program@@(string,string,int)@
+CCCC_MemExt@Program@Program@@(string,string,int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h@19@definition@F???0@LOC:5 COM:1 MVG:0@0@d@
+CCCC_Member@Program@addPLO@@(PLO *)@
+CCCC_MemExt@Program@addPLO@@(PLO *)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h@35@definition@F???0@LOC:3 COM:1 MVG:0@0@d@
+CCCC_Member@Program@display@@()@
+CCCC_MemExt@Program@display@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h@25@definition@F???0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Member@Program@getAllCourses@@()@
+CCCC_MemExt@Program@getAllCourses@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h@57@definition@F???0@LOC:6 COM:0 MVG:1@0@d@
+CCCC_Member@Program@getCoursesbyPLO@@(int)@
+CCCC_MemExt@Program@getCoursesbyPLO@@(int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h@48@definition@F???0@LOC:8 COM:1 MVG:2@0@d@
+CCCC_Member@Program@getID@@()@
+CCCC_MemExt@Program@getID@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h@32@definition@F???0@LOC:1 COM:1 MVG:1@0@d@
+CCCC_Member@Program@listAllPLO@@()@
+CCCC_MemExt@Program@listAllPLO@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h@40@definition@F???0@LOC:6 COM:1 MVG:1@0@d@
+CCCC_Member@Question@DisplayAllCLO@@()@
+CCCC_MemExt@Question@DisplayAllCLO@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h@52@definition@F???0@LOC:5 COM:0 MVG:1@0@d@
+CCCC_Member@Question@Question@@(int,string)@
+CCCC_MemExt@Question@Question@@(int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h@21@definition@F???0@LOC:4 COM:1 MVG:0@0@d@
+CCCC_Member@Question@addCLO@@(CLO *)@
+CCCC_MemExt@Question@addCLO@@(CLO *)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h@40@definition@F???0@LOC:3 COM:1 MVG:0@0@d@
+CCCC_Member@Question@checkCLO@@(int)@
+CCCC_MemExt@Question@checkCLO@@(int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h@45@definition@F???0@LOC:6 COM:1 MVG:4@0@d@
+CCCC_Member@Question@display@@()@
+CCCC_MemExt@Question@display@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h@26@definition@F???0@LOC:11 COM:0 MVG:1@0@d@
+CCCC_Member@Question@getAllCLO@@()@
+CCCC_MemExt@Question@getAllCLO@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h@59@definition@F???0@LOC:1 COM:1 MVG:1@0@d@
+CCCC_Member@Question@getID@@()@
+CCCC_MemExt@Question@getID@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h@67@definition@F???0@LOC:1 COM:1 MVG:1@0@d@
+CCCC_Member@Question@printAllCLO@@()@
+CCCC_MemExt@Question@printAllCLO@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h@60@definition@F???0@LOC:5 COM:0 MVG:1@0@d@
+CCCC_Member@Teacher@Teacher@@()@
+CCCC_MemExt@Teacher@Teacher@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@160@definition@F??T0@LOC:3 COM:1 MVG:0@0@d@
+CCCC_Member@Teacher@Teacher@@(string,string,string)@
+CCCC_MemExt@Teacher@Teacher@@(string,string,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@166@definition@F??T0@LOC:3 COM:1 MVG:0@0@d@
+CCCC_Member@Teacher@createCLO@@(string,int,string)@
+CCCC_MemExt@Teacher@createCLO@@(string,int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@173@definition@F??T0@LOC:4 COM:1 MVG:1@0@d@
+CCCC_Member@Teacher@createEvaluation@@(string,float,float,string,int)@
+CCCC_MemExt@Teacher@createEvaluation@@(string,float,float,string,int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@177@definition@F??T0@LOC:4 COM:0 MVG:1@0@d@
+CCCC_Member@Teacher@createQuestion@@(int,string)@
+CCCC_MemExt@Teacher@createQuestion@@(int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@181@definition@F??T0@LOC:4 COM:0 MVG:1@0@d@
+CCCC_Member@Teacher@getInfo@@()@
+CCCC_MemExt@Teacher@getInfo@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@209@definition@F??T0@LOC:6 COM:1 MVG:0@0@d@
+CCCC_Member@Teacher@reConstruct@@(Teacher *)@
+CCCC_MemExt@Teacher@reConstruct@@(Teacher *)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@196@definition@F??T0@LOC:7 COM:1 MVG:0@0@d@
+CCCC_Member@Teacher@saveToFile@@(Teacher *)@
+CCCC_MemExt@Teacher@saveToFile@@(Teacher *)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@188@definition@F??T0@LOC:6 COM:1 MVG:0@0@d@
+CCCC_Member@Teacher@~Teacher@@()@
+CCCC_MemExt@Teacher@~Teacher@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@217@definition@F??T0@LOC:0 COM:0 MVG:0@0@d@
+CCCC_Member@User@User@@()@
+CCCC_MemExt@User@User@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@20@definition@F???0@LOC:6 COM:1 MVG:0@0@d@
+CCCC_Member@User@User@@(string,string,string,string)@
+CCCC_MemExt@User@User@@(string,string,string,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@29@definition@F???0@LOC:6 COM:1 MVG:0@0@d@
+CCCC_Member@User@createCLO@@(string,int,string)@
+CCCC_MemExt@User@createCLO@@(string,int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@49@definition@F??T0@LOC:1 COM:1 MVG:1@0@d@
+CCCC_Member@User@createCourse@@(string,int,string)@
+CCCC_MemExt@User@createCourse@@(string,int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@47@definition@F??T0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@User@createEvaluation@@(string,float,float,string,int)@
+CCCC_MemExt@User@createEvaluation@@(string,float,float,string,int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@50@definition@F??T0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@User@createPLO@@(string,int,string)@
+CCCC_MemExt@User@createPLO@@(string,int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@46@definition@F??T0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@User@createProgram@@(string,string,int)@
+CCCC_MemExt@User@createProgram@@(string,string,int)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@45@definition@F??T0@LOC:1 COM:2 MVG:1@0@d@
+CCCC_Member@User@createQuestion@@(int,string)@
+CCCC_MemExt@User@createQuestion@@(int,string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@51@definition@F??T0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@User@getData@@()@
+CCCC_MemExt@User@getData@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@37@definition@F???0@LOC:3 COM:1 MVG:1@0@d@
+CCCC_Member@User@getInfo@@()@
+CCCC_MemExt@User@getInfo@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@53@definition@F??T0@LOC:3 COM:0 MVG:1@0@d@
+CCCC_Member@User@getName@@()@
+CCCC_MemExt@User@getName@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@60@definition@F??T0@LOC:1 COM:1 MVG:1@0@d@
+CCCC_Member@User@getPassword@@()@
+CCCC_MemExt@User@getPassword@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@68@definition@F??T0@LOC:1 COM:1 MVG:1@0@d@
+CCCC_Member@User@getType@@()@
+CCCC_MemExt@User@getType@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@71@definition@F??T0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@User@getUsername@@()@
+CCCC_MemExt@User@getUsername@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@64@definition@F??T0@LOC:1 COM:1 MVG:1@0@d@
+CCCC_Member@User@setName@@(string)@
+CCCC_MemExt@User@setName@@(string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@61@definition@F??T0@LOC:1 COM:0 MVG:0@0@d@
+CCCC_Member@User@setPassword@@(string)@
+CCCC_MemExt@User@setPassword@@(string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@69@definition@F??T0@LOC:1 COM:0 MVG:0@0@d@
+CCCC_Member@User@setUsername@@(string)@
+CCCC_MemExt@User@setUsername@@(string)@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@65@definition@F??T0@LOC:1 COM:0 MVG:0@0@d@
+CCCC_Member@User@~User@@()@
+CCCC_MemExt@User@~User@@()@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@73@definition@F??T0@LOC:2 COM:0 MVG:0@0@d@
+CCCC_UseRel@DataHandle@AcademicOfficer@
+CCCC_UseExt@DataHandle@AcademicOfficer@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@82@has by reference@F??T2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseRel@User@AcademicOfficer@
+CCCC_UseExt@User@AcademicOfficer@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@79@inheritance@F??T0@*@0@I@
+CCCC_UseRel@string@AcademicOfficer@
+CCCC_UseExt@string@AcademicOfficer@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@94@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@AcademicOfficer@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@94@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@AcademicOfficer@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@94@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@AcademicOfficer@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@123@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@AcademicOfficer@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@123@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@AcademicOfficer@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@128@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@AcademicOfficer@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@128@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@AcademicOfficer@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@132@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@AcademicOfficer@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@132@pass by value@F??T0@*@0@P@
+CCCC_UseRel@string@CLO@
+CCCC_UseExt@string@CLO@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h@13@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@CLO@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h@15@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@CLO@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h@19@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@CLO@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h@19@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@CLO@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h@24@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@CLO@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h@48@pass by value@F???0@*@0@P@
+CCCC_UseRel@vector@CLO@
+CCCC_UseExt@vector@CLO@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h@16@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@CLO@Course@
+CCCC_UseExt@CLO@Course@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h@47@pass by reference@F???0@*@0@p@
+CCCC_UseRel@string@Course@
+CCCC_UseExt@string@Course@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h@15@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@Course@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h@19@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@Course@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h@27@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Course@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h@27@pass by value@F???0@*@0@P@
+CCCC_UseRel@vector@Course@
+CCCC_UseExt@vector@Course@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h@23@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@fstream@DataHandle@
+CCCC_UseExt@fstream@DataHandle@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\data.h@16@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@string@DataHandle@
+CCCC_UseExt@string@DataHandle@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\data.h@17@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@DataHandle@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\data.h@22@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@DataHandle@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\data.h@29@pass by value@F???0@*@0@P@
+CCCC_UseRel@Question@Evaluation@
+CCCC_UseExt@Question@Evaluation@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h@44@pass by reference@F???0@*@0@p@
+CCCC_UseRel@string@Evaluation@
+CCCC_UseExt@string@Evaluation@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h@12@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@Evaluation@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h@15@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@Evaluation@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h@21@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Evaluation@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h@21@pass by value@F???0@*@0@P@
+CCCC_UseRel@vector@Evaluation@
+CCCC_UseExt@vector@Evaluation@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h@16@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@User@Interface@
+CCCC_UseExt@User@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@25@has by reference@????2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseRel@string@Interface@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@39@pass by value@F???2@*@2@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@39@pass by value@F???2@*@2@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@209@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@209@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@231@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@231@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@234@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@234@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@237@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@237@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@310@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@310@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@314@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@319@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@319@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@323@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@346@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@399@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@418@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@450@pass by value@F???0@*@0@P@
+CCCC_UseRel@vector@Interface@
+CCCC_UseExt@vector@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@17@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@vector@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@18@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@vector@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@19@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@vector@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@20@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@vector@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@21@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@vector@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@22@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@vector@Interface@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@23@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@Course@PLO@
+CCCC_UseExt@Course@PLO@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h@41@pass by reference@F???0@*@0@p@
+CCCC_UseRel@string@PLO@
+CCCC_UseExt@string@PLO@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h@13@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@PLO@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h@15@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@PLO@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h@19@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@PLO@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h@24@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@PLO@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h@24@pass by value@F???0@*@0@P@
+CCCC_UseRel@vector@PLO@
+CCCC_UseExt@vector@PLO@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h@16@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@PLO@Program@
+CCCC_UseExt@PLO@Program@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h@35@pass by reference@F???0@*@0@p@
+CCCC_UseRel@string@Program@
+CCCC_UseExt@string@Program@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h@11@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@Program@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h@12@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@Program@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h@19@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@Program@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h@19@pass by value@F???0@*@0@P@
+CCCC_UseRel@vector@Program@
+CCCC_UseExt@vector@Program@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h@14@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@CLO@Question@
+CCCC_UseExt@CLO@Question@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h@40@pass by reference@F???0@*@0@p@
+CCCC_UseRel@string@Question@
+CCCC_UseExt@string@Question@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h@14@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@Question@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h@21@pass by value@F???0@*@0@P@
+CCCC_UseRel@vector@Question@
+CCCC_UseExt@vector@Question@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h@15@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@DataHandle@Teacher@
+CCCC_UseExt@DataHandle@Teacher@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@154@has by reference@F??T2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseRel@User@Teacher@
+CCCC_UseExt@User@Teacher@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@151@inheritance@F??T0@*@0@I@
+CCCC_UseRel@string@Teacher@
+CCCC_UseExt@string@Teacher@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@166@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@Teacher@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@166@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@Teacher@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@166@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@Teacher@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@173@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@Teacher@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@173@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@Teacher@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@177@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@Teacher@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@177@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@Teacher@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@181@pass by value@F??T0@*@0@P@
+CCCC_UseRel@string@User@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@11@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@12@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@13@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@14@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@29@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@29@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@29@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@29@pass by value@F???0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@45@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@45@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@46@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@46@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@47@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@47@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@49@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@49@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@50@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@50@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@51@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@61@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@65@pass by value@F??T0@*@0@P@
+CCCC_UseExt@string@User@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@69@pass by value@F??T0@*@0@P@
+CCCC_RejExt@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h@1@<file scope items>@F???2@LOC:1 COM:0 MVG:0@2@r@
+CCCC_RejExt@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h@1@<file scope items>@F???2@LOC:2 COM:0 MVG:0@2@r@
+CCCC_RejExt@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\data.h@1@<file scope items>@F???2@LOC:3 COM:1 MVG:0@2@r@
+CCCC_RejExt@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h@1@<file scope items>@F???2@LOC:2 COM:0 MVG:0@2@r@
+CCCC_RejExt@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h@1@<file scope items>@F???2@LOC:1 COM:0 MVG:0@2@r@
+CCCC_RejExt@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h@1@<file scope items>@F???2@LOC:2 COM:1 MVG:0@2@r@
+CCCC_RejExt@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h@1@<file scope items>@F???2@LOC:2 COM:0 MVG:0@2@r@
+CCCC_RejExt@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PUBLIC_HEADERS.h@1@<file scope items>@?????@LOC:2 COM:0 MVG:0@?@r@
+CCCC_RejExt@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h@1@<file scope items>@F???2@LOC:2 COM:0 MVG:0@2@r@
+CCCC_RejExt@C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h@1@<file scope items>@F??T0@LOC:2 COM:0 MVG:0@0@r@

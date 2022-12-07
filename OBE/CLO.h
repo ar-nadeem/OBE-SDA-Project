@@ -45,6 +45,12 @@ public:
 		cout << endl;
 	}
 
+	string saveToFile() {
+		return(this->name +","+
+		to_string(this->code) + ","+
+		this->desc +"\n");
+	}
+
 	void addTopicCovered(string s) {
 		topic_covered.push_back(s);
 	}

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module string-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="********" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="11" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>string</name>
+<client_module>
+<name>AcademicOfficer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="94" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="94" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="94" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="123" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="123" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="128" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="128" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="132" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="132" />
+</extent>
+<name>CLO</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h" line="13" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h" line="15" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h" line="19" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h" line="19" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h" line="24" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\CLO.h" line="48" />
+</extent>
+<name>Course</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h" line="15" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h" line="19" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h" line="27" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Courses.h" line="27" />
+</extent>
+<name>DataHandle</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\data.h" line="17" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\data.h" line="22" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\data.h" line="29" />
+</extent>
+<name>Evaluation</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h" line="12" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h" line="15" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h" line="21" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Evaluation.h" line="21" />
+</extent>
+<name>Interface</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="39" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="39" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="209" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="209" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="231" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="231" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="234" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="234" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="237" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="237" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="310" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="310" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="314" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="319" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="319" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="323" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="346" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="399" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="418" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Interface.h" line="450" />
+</extent>
+<name>PLO</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h" line="13" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h" line="15" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h" line="19" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h" line="24" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\PLO.h" line="24" />
+</extent>
+<name>Program</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h" line="11" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h" line="12" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h" line="19" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\Program.h" line="19" />
+</extent>
+<name>Question</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h" line="14" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\questions.h" line="21" />
+</extent>
+<name>Teacher</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="166" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="166" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="166" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="173" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="173" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="177" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="177" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="181" />
+</extent>
+<name>User</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="11" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="12" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="13" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="14" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="29" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="29" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="29" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="29" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="45" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="45" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="46" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="46" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="47" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="47" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="49" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="49" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="50" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="50" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="51" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="61" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="65" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="C:\Users\ar-na\Documents\GitHub\OBE-SDA-Project\OBE\users.h" line="69" />
+</extent>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

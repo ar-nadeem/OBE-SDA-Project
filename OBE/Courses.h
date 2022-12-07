@@ -40,6 +40,14 @@ public:
 
 	}
 
+	string saveToFile() {
+		return(this->course_name + ","+
+		this->course_code + ","+
+		to_string(this->credit_hours) +"\n");
+
+
+	}
+
 	string getID() { return this->course_code; }
 
 
